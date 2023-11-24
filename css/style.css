@@ -1,0 +1,902 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    height: 70px;
+   /* background-color: rgb(100, 202, 202); */
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.btn{
+    width: 120px;
+    height: 45px;
+}
+.btn:hover{
+    background-image: linear-gradient(green, yellow);
+  /*  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+#sadeek{
+    background-image: linear-gradient(red, green, blue, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+
+.sadeek{
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.navbar-nav a{
+    background-image: linear-gradient(green, yellow, green, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+
+}
+
+.carousel-caption{
+    width: 1300px;
+    height: 250px;
+    opacity: 0.6;
+    margin-top: -50px;
+    background-color:rgb(238, 230, 230);
+    margin-left: auto;
+    border-radius: 20px;
+   
+
+}
+
+.carousel-caption h5{
+    font-size: 55px;
+    color: rgb(16, 17, 16);
+    font-weight: bold;
+    
+}
+
+.carousel-caption p{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+   
+}
+
+.get{
+    width: 100%;
+    height: 200px;
+    background-color:rgba(227, 235, 230, 0.5);
+    border-radius: 20px;
+}
+
+.get h2{
+    font-size: 60px;
+    color: rgb(2, 27, 2);
+    font-weight: bold;
+    margin-left: 25px;
+    font-family: fantasy;
+    border-radius: 20px;
+    background-image: linear-gradient(black,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.get p{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(13, 14, 13);
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(black,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.go{
+    width: 100%;
+    height: 150px;
+    background-color:rgba(4, 82, 34, 0.5);
+    border-radius: 20px;
+}
+
+span{
+    display: block;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(227, 235, 230, 0.5);
+    margin-top: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient( black,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.accordion-item a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(  green,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.accordion-item a:hover{
+    color: aquamarine;
+}
+
+.text5{
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 0;
+}
+
+.text5:hover{
+    border: 3px solid green;
+}
+
+
+.container-fluid7{
+    width: 100%;
+    height: auto;
+    background-color: rgba(227, 235, 230, 0.5);
+
+    
+}
+
+.overley{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.coll{
+    width: 100%;
+    height: 60px;
+    
+    
+}
+
+.colll{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/ilta-talvi1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.colll1{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/juna.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.collll{
+    width: 100%;
+    height: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(black,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.collll h2{
+    font-size: 45px;
+    
+}
+
+.collll .hhhhh{
+    margin-bottom: 30px;
+}
+
+.tauhed{
+    margin-top: 20px;
+    font-size: 70px;
+    color: black;
+    text-align: center;  
+    background-image: linear-gradient(black,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+/* //////////////////////////////////////////// */
+
+.wrapper{
+    padding: 10px 10px;
+}
+
+#card-area{
+    padding: 50px 0;
+   /* margin-left: 50px; */
+}
+
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 1px;
+}
+
+.box{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transfprm 0.5s;
+}
+
+.overlay{
+    height: 0;
+    width: 100%;
+    background: linear-gradient(transparent, #dbd7d7 58%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.overlay h3{
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 90%;
+    font-family: babas neue;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.overlay a{
+    margin-top: 10px;
+    color: green;
+    text-decoration: none;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.box:hover img{
+    transform: scale(1.2);
+}
+
+.box:hover .overlay{
+    height: 100%;
+}
+
+.ifonat{
+    width: 100px;
+    height: 500px;
+    
+    margin-left: 1700px;
+    margin-top: 200px;
+    position: fixed;
+    z-index: 50;
+    display: block;
+}
+
+.i5{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.i5:hover {
+    background-image: linear-gradient(green,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.i6{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.i6:hover {
+    background-image: linear-gradient(green,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.i7{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.i7:hover {
+    background-image: linear-gradient(green,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.i8{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.i8:hover {
+    background-image: linear-gradient(green,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.i9{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.i9:hover {
+    background-image: linear-gradient(yellow,green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* ////////////////////////////// */
+
+.wrapper1{
+    padding: 10px 10px;
+}
+
+#card-area1{
+    padding: 50px 0;
+   /* margin-left: 50px; */
+}
+
+.box-area1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 1px;
+}
+
+.box1{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box1 img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transfprm 0.5s;
+}
+
+.overlay1{
+    height: 0;
+    width: 100%;
+    background: linear-gradient(transparent, #e2dada 58%);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+
+.overlay1 a{
+    margin-top: 10px;
+    color: green;
+    text-decoration: none;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.box1:hover img{
+    transform: scale(1.2);
+}
+
+.box1:hover .overlay1{
+    height: 100%;
+}
+
+/*  /////////////////////////////////////  */
+
+.contant{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.cards{
+    width: 420px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid #180101;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    
+}
+
+.ss{
+    margin-left: 200px;
+}
+
+.ww{
+    margin-left: 100px;
+}
+
+.bb{
+    margin-left: 100px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
+
+.cards-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right:-100%;
+    position: absolute;
+    background: #1f3d4738; 
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s ;
+}
+
+.cards:hover .cards-body{
+       right: 0; 
+}
+.cards-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.cards-sub-title{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.vards-info{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+    
+}
+
+.cards-btn{
+    color: #1f3d47;
+    background: #8fabba;
+    padding: 10px 20px;
+    width: 120px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/*  //////////////////////////////////// */
+
+
+.container556{
+    width: 80%;
+    height: auto;
+    margin-left: 205px;
+    margin-top: 50px;
+    overflow: auto;
+    
+}
+
+.card{
+    opacity: 0.6;
+    border-radius: 20px;
+    float: left;
+}
+
+.card img{
+    height: 600px;
+}
+
+.card:hover{
+    opacity: 1;
+    
+}
+
+
+.card-img-top{
+   border-radius: 15px;
+}
+
+.card-img-overlay{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.card-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.imgsss{
+    margin-top: 220px;
+
+}
+
+.card-text-info-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.dd{
+    margin-left: 120px;
+}
+
+.dd img{
+    height: 600px;
+}
+.jj {
+    margin-left: 130px;
+
+}
+
+.jj img{
+    width: 400;
+    height: 600px;
+}
+
+/* ////////////////////////////////////////////// */
+
+.container-fluid111{
+    width: 79%;
+    height: 60vh;
+    background: rgba(227, 235, 230, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.text-title{
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(black,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.img-box{
+    width: 100px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 50px;
+    background-image: url(../images/meri.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 05s;
+    
+}
+.img-box:nth-child(2){
+    background-image: url(../images/meri1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(3){
+    background-image: url(../images/meri2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(4){
+    background-image: url(../images/meri2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box h3{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:hover{
+    width: 600px;
+    cursor: pointer;
+}
+
+.img-box:hover h3{
+    opacity: 1;
+    bottom:25px;
+    cursor: pointer;
+    
+
+}
+
+/* ////////////////////////////////// */
+
+.hero{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .h55{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: fantasy;
+    margin-bottom: 100px;
+    margin-top: -100px;
+    background-image: linear-gradient(green,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+ }
+
+.social-links{
+    display: flex;
+}
+
+.social-links a{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 30px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.social-links a .fab{
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
+
+.social-links a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: -90px;
+    left: 0;
+    background: linear-gradient(-45deg, green, #ffec17);
+    position: absolute;
+    transition: 0.5s;
+}
+
+.social-links a:hover::after{
+    top: 0;
+}
+
+.social-links a:hover .fba{
+    color: #fff;
+}
+
+.social-links a:hover{
+    transform: translatey(-10px);
+}
+
+
+/* /////////////////////////////////// */
+
+.img-box1{
+    width: 100px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 50px;
+    background-image: url(../images/ilta-talvi1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 05s;
+    
+}
+.img-box1:nth-child(2){
+    background-image: url(../images/museo2.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box1:nth-child(3){
+    background-image: url(../images/kauni3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box1:nth-child(4){
+    background-image: url(../images/kaivopuisto.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box1 h3{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box1:hover{
+    width: 600px;
+    cursor: pointer;
+}
+
+.img-box1:hover h3{
+    opacity: 1;
+    bottom:25px;
+    cursor: pointer;
+    
+
+}
+
+/*  //////////////////////////////// */
+
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #1f3d4738 ;
+    background: rgba(227, 235, 230, 0.5);
+    display: flex;
+}
+
+.footer div{
+    text-align: center;
+
+}
+
+.col-2{
+    flex-grow: 2;
+    margin-left: 300px;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #130101;
+    margin-bottom: 10px;
+
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+
+}
+
+form button{
+    background: transparent;
+    border: 2px solid#fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 80px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 90px;
+}
+
+.col-3{
+    margin-left: 400px;
+}
+
+.social-icon{
+    margin-top: 30px;
+}
+
+.social-icon i{
+    font-size: 22px;
+    margin: 10px;
+    color: black;
+
+}
+
+.col-2 h3{
+    margin-left: 130px;
+    font-weight: bold;
+}
+
